@@ -1,0 +1,32 @@
+h1 {
+  color: blue;
+  font-family: "American Typewriter";
+  font-size: 90px;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  font-family: "Apple Symbols";
+  font-size: 60px;
+}
+
+a {
+  color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
