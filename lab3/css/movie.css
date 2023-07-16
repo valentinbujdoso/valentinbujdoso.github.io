@@ -1,0 +1,119 @@
+/*Valentin Bujdoso Lesson3 Movie review's css file*/
+body {
+  background-image: url("../img/background.png");
+  font-family: Verdana;
+  font-size: 8pt;
+  margin: 0;
+  padding: 0;
+}
+
+#image_banner {
+  background-image: url("../img/bannerbg.png");
+  background-repeat: repeat-x;
+  width:100%;
+  padding-left:25%;
+}
+
+#centered_heading {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  text-shadow: 3px 3px #999999;
+}
+
+.content {
+  border: 4px gray solid;
+  border-radius:20px;
+  width:800px;
+  overflow: hidden;
+  margin:0px auto;
+}
+
+#overall_content_area {
+  max-width: 550px;
+  background-image: url("../img/rbg.png");
+  background-repeat: repeat-x;
+  overflow: hidden;
+}
+
+#thirtythreepercent {
+  font-size: 48pt;
+  font-weight: bold;
+  color: red;
+  position: relative;
+  bottom: 16px;
+}
+
+.columns-left {
+  float: left;
+  max-width: 550px;
+  margin-top: -11px;
+}
+
+.columns-left-left {
+  max-width: 256px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.columns-left-right {
+  max-width: 256px;
+  float: right;
+}
+
+.columns-right {
+  float: right;
+}
+
+#columns-right-content {
+  background: #A2B964;
+  width: 250px;
+  font-size: 8pt;
+  font-family: Arial;
+  padding-top: 5px;
+  margin-top: -2pt;
+}
+
+dt{
+  font-weight:bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+q {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.reviews {
+  background: #E8DC9B;
+  border: gray solid 2px;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.reviewers {
+  margin: 0px;
+  font-style: italic;
+  padding-bottom: 20pt;
+}
+
+.imgfloat {
+  float: left;
+}
+
+#footer {
+  background: #A2B964;
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-top: -10pt;
+}
+
+#validators {
+  opacity: 0.5;
+  float: right;
+}
