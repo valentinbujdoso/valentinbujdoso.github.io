@@ -28,19 +28,16 @@
 
 .left {
   background-color: grey;
-  width: 25%;
   height: 150px;
 }
 
 .middle {
   background-color: darkgrey;
-  width: 50%;
   height: 150px;
 }
 
 .right {
   background-color: lightgrey;
-  width: 25%;
   height: 150px;
 }
 
@@ -58,4 +55,36 @@ p{
 .validators {
   opacity: 0.5;
   float: right;
+}
+
+
+@media screen and (min-width: 600px){
+  .left{
+    width: 25%;
+    order: 1;
+  }
+  .middle{
+    width: 50%;
+    order: 2;
+  }
+  .right {
+    width: 25%;
+    order: 3;
+  }
+}
+
+
+@media screen and (max-width: 599px) {
+  .left {
+    width: 50%;
+    order: 1;
+  }
+  .middle {
+    width: 100%;
+    order:3;
+  }
+  .right{
+    width: 50%;
+    order:2;
+  }
 }
