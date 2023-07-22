@@ -1,0 +1,47 @@
+h1 {
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-size: 18pt;
+  font-family: "Lucida Sans", Helvetica, Arial;
+  text-decoration: underline;
+}
+
+.main {
+  font-size: 22pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  /*background: white;*/
+  background-image: url("../img/silverware.jpg");
+  color: #404040;
+  font-size: 11pt;
+  font-family: Georgia, Garamond, Serif;
+}
+
+a {
+  color: #A4A400;
+}
+
+.strikeout {
+  text-decoration: line-through;
+}
+
+.right {
+  text-align: right;
+}
+
+.directions {
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  background: #FFFFA8;
+}
+
+.bullet {
+  list-style-type: none;
+  padding: 0px;
+}
