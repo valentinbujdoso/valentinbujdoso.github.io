@@ -1,0 +1,58 @@
+{
+  box-sizing: border-box;
+}
+
+.header{
+  padding: 50px;
+  text-align: center;
+  background: lightskyblue;
+}
+
+.bar{
+  display: flex;
+  background-color: darkslategrey;
+}
+
+.bar a{
+  color: white;
+  padding: 12px 18px;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  background-color: grey;
+  height: 150px;
+}
+
+.middle {
+  background-color: darkgrey;
+  height: 150px;
+}
+
+.right {
+  background-color: lightgrey;
+  height: 150px;
+}
+
+p{
+  padding-left: 5px;
+}
+
+.footer {
+  background: darkslategrey;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.validators {
+  opacity: 0.5;
+  float: right;
+}
