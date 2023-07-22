@@ -115,5 +115,5 @@ professor41.salute();
 
 const student41 = new Student41("Valentin", 30, "Computer Science");
 student41.greeting();
-// student41.salute();
+student41.salute();
 
