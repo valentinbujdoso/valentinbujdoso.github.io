@@ -111,7 +111,7 @@
       $("#taskCreation").removeClass("not");
     });
     $('tbody tr').click(function (evt) {
-      $(evt.target).closest('td').siblings().addBack().toggleClass('rowHighlight');
+      $(evt.target).closest('td').siblings().andSelf().toggleClass('rowHighlight');
     });
     $('#tblTasks tbody').on('click','.deleteRow', function (evt){
       evt.preventDefault();
