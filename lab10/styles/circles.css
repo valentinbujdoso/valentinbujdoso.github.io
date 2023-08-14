@@ -1,0 +1,16 @@
+.container div{
+  text-align: left;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.circle{
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+input{
+  position: absolute;
+  display: block;
+}
