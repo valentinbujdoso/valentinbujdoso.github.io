@@ -18,16 +18,16 @@ $(function () {
   function createNewCircle () {
 
     const $div = $('<div>', {class: 'circle'});
-    $div.css("background-color", createColor());
+    $div.css("background-color", getColor());
     $("#circles").append($div);
 
     $div.css("top", getXPosition($div) + 'px');
     $div.css("left", getYPosition($div) + 'px');
-    $div.css("height", width + 'px');
-    $div.css("width", width + 'px');
+    $div.css("height", width.val() + 'px');
+    $div.css("width", width.val() + 'px');
 
     const id = setInterval(() => {
-      const size = parseInt($($div).css("height")) + parseInt(ggrowth.val()) + "px";
+      const size = parseInt($($div).css("width")) + parseInt(ggrowth.val()) + "px";
       $($div).css("height", size);
       $($div).css("width", size);
 
@@ -47,12 +47,7 @@ $(function () {
     return Math.floor(Math.random() * document.body.offsetWidth-elem.width());
   }
 
-  function createColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * letters.length)];
-    }
-    return color;
+  function getColor() {
+    return "#" + Math.floor(Math.random()*16777215).toString(16);
   };
 });
