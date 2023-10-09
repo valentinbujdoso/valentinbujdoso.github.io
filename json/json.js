@@ -1,14 +1,8 @@
 $(document).ready(function () {
     $("#display").click(function () {
         let id = $("#id").val();
-        $.ajax({
-            url: "https://jsonplaceholder.typicode.com/users?id=" + id,
-            success: showInfo,
-        });
-        $.ajax({
-            url: "https://jsonplaceholder.typicode.com/posts?userId=" + id,
-            success: showList,
-        });
+        $.get("https://jsonplaceholder.typicode.com/users", {"id": id}).done(showInfo);
+        $.get("https://jsonplaceholder.typicode.com/posts", {"userId": id}).done(showList);
     });
 });
 
